@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:wght@300&family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab:wght@900&display=swap');
+
+/* font-family: 'Clicker Script', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.imagen {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+a.enlaces {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 12rem;
+}
+/* iconos */
+
+
+
+
+/*Botones*/
+a {
+    position: relative;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem !important;
+    transition: 0.5s;
+    padding: 1rem 2rem;
+}
+
+a:hover {
+    letter-spacing: 0.25rem;
+    background-color: var(--color);
+    color: var(--color);
+    box-shadow: 0 0 35px var(--color);
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+
+a span {
+    position: relative;
+    z-index: 1;
+}
+
+a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+a i::before {
+    content: '';
+    position: absolute;
+    top: -3.5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid var(--color);
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+a:hover i::before {
+    left: 20%;
+    width: 20px;
+}
+
+a i::after {
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    border: 2px solid var(--color);
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+a:hover i::after {
+    left: 80%;
+    width: 20px;
+}
+
+/*Botones*/
+
+.copiright {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 320px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        margin-top: -40px;
+        margin-bottom: -70px;
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+
+    a.enlaces {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        line-height: 8rem;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+
+    a.enlaces {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        line-height: 8rem;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .imagen {
+        border: none !important;
+    }
+
+    img.logo2 {
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+
+    a.enlaces {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        line-height: 8rem;
+    }
+}
+
+@media screen and (min-width: 354px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+
+    a.enlaces {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        line-height: 8rem;
+    }
+}
+
+
+@media screen and (min-width: 360px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 44px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 80px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 80px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .presentacion {
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        height: 80px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .presentacion {
+        width: 100%;
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 796px) {
+    .presentacion {
+        width: 100%;
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .presentacion {
+        width: 100%;
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .presentacion {
+        width: 100%;
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .caja1 {
+        margin-bottom: 77px;
+    }
+
+    .caja2 {
+        margin-bottom: 77px;
+    }
+
+    .caja3 {
+        margin-bottom: 77px;
+    }
+
+    .caja4 {
+        margin-bottom: 77px;
+    }
+
+    .presentacion {
+        width: 100%;
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+}
