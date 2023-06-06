@@ -1,4 +1,4 @@
-<h1>Presentación de la web - uno simple primera versión</h1>
+<h1>Portada Web</h1>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
